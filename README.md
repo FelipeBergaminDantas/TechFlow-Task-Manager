@@ -1,73 +1,44 @@
-# Welcome to your Lovable project
+# 🧠 TechFlow Task Manager
 
-## Project info
+O **TechFlow Task Manager** é um aplicativo web desenvolvido para facilitar o gerenciamento de tarefas de forma simples, eficiente e intuitiva.  
+Com uma interface moderna e responsiva, o sistema permite criar, editar, concluir e excluir tarefas, ajudando o usuário a manter sua produtividade e organização no dia a dia.  
 
-**URL**: https://lovable.dev/projects/f6dbf134-8b57-485b-8e34-982a1aa7645c
+---
 
-## How can I edit this code?
+## 🚀 Tecnologias Utilizadas
 
-There are several ways of editing your application.
+O projeto foi desenvolvido utilizando as seguintes linguagens e tecnologias:
 
-**Use Lovable**
+- 🟦 **TypeScript**  
+- 🟨 **JavaScript**  
+- 🎨 **CSS**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f6dbf134-8b57-485b-8e34-982a1aa7645c) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🌐 Publicação
 
-**Use your preferred IDE**
+O site foi **publicado na Lovable**, uma plataforma moderna e otimizada para deploys de aplicações web rápidas e escaláveis.  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+🔗 **Acesse o site aqui:** [TechFlow Task Manager](https://techflow-task-manager.lovable.app/)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 💡 Objetivo
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+O objetivo do **TechFlow Task Manager** é oferecer uma ferramenta funcional e acessível para o gerenciamento de tarefas pessoais e profissionais, promovendo melhor controle de tempo e produtividade.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🧩 Funcionalidades Principais
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+- ✅ Adicionar novas tarefas  
+- ✏️ Editar tarefas existentes  
+- ☑️ Marcar tarefas como concluídas  
+- ❌ Excluir tarefas  
+- 💻 Interface simples, moderna e responsiva  
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 👨‍💻 Autor
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/f6dbf134-8b57-485b-8e34-982a1aa7645c) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Desenvolvido por **Felipe Bergamin Dantas**.
