@@ -8,7 +8,7 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 240 20% 98%;
+    --background: 240 20% 95%; /* atualizado de 98% para 95% */
     --foreground: 222 47% 11%;
 
     --card: 0 0% 100%;
@@ -44,9 +44,9 @@ All colors MUST be HSL.
 
     --radius: 0.75rem;
     
-    --kanban-todo: 220 14% 96%;
-    --kanban-progress: 221 100% 97%;
-    --kanban-done: 142 76% 96%;
+    --kanban-todo: 220 14% 93%; /* atualizado de 96% para 93% */
+    --kanban-progress: 221 100% 95%; /* atualizado de 97% para 95% */
+    --kanban-done: 142 76% 94%; /* atualizado de 96% para 94% */
 
     --sidebar-background: 0 0% 98%;
 
