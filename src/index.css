@@ -8,14 +8,11 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 240 20% 95%; /* atualizado de 98% para 95% */
+    --background: 240 20% 95%;
     --foreground: 222 47% 11%;
 
     --card: 0 0% 100%;
     --card-foreground: 222 47% 11%;
-
-    --popover: 0 0% 100%;
-    --popover-foreground: 222 47% 11%;
 
     --primary: 221 83% 53%;
     --primary-foreground: 0 0% 100%;
@@ -44,9 +41,12 @@ All colors MUST be HSL.
 
     --radius: 0.75rem;
     
-    --kanban-todo: 220 14% 93%; /* atualizado de 96% para 93% */
-    --kanban-progress: 221 100% 95%; /* atualizado de 97% para 95% */
-    --kanban-done: 142 76% 94%; /* atualizado de 96% para 94% */
+    --kanban-todo: 220 14% 93%;
+    --kanban-progress: 221 100% 95%;
+    --kanban-done: 142 76% 94%;
+
+    /* NOVO: atividade básica em azul */
+    --kanban-basic: 210 100% 85%; /* azul claro */
 
     --sidebar-background: 0 0% 98%;
 
@@ -71,9 +71,6 @@ All colors MUST be HSL.
 
     --card: 217 33% 17%;
     --card-foreground: 210 40% 98%;
-
-    --popover: 217 33% 17%;
-    --popover-foreground: 210 40% 98%;
 
     --primary: 221 83% 53%;
     --primary-foreground: 0 0% 100%;
@@ -103,6 +100,10 @@ All colors MUST be HSL.
     --kanban-todo: 217 33% 15%;
     --kanban-progress: 221 50% 15%;
     --kanban-done: 142 40% 15%;
+
+    /* NOVO: atividade básica em azul escuro no dark mode */
+    --kanban-basic: 210 100% 25%;
+
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -121,5 +122,10 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+  }
+
+  /* Nova classe para tarefas básicas */
+  .kanban-basic {
+    background-color: hsl(var(--kanban-basic));
   }
 }
